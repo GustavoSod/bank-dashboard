@@ -27,7 +27,7 @@ const Questions: React.FC = () => {
 
   return (
     <div className="flex items-center w-full justify-center">
-      <div className="w-4/5 rounded-lg items-center justify-center mt-40">
+      <div className="w-4/5 rounded-lg items-center justify-center sm:mt-40 mt-24">
         <div className="bg-green-500 rounded-lg text-center p-4">
           <h1 className="lg:text-5xl sm:text-4xl text-3xl font-semibold">Questions</h1>
         </div>
