@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Presentation() {
   return (
-    <div className="flex lg:flex-row lg:justify-evenly flex-col-reverse items-center w-full justify-center lg:mb-22 mb-16 mt-12">
-      <div className="relative lg:h-[70vh] lg:w-[70vh] sm:h-[50vh] sm:w-[55vh] h-[50vh] w-[40vh] lg:mt-0 mt-20 object-contain">
+    <div className="flex lg:flex-row lg:justify-evenly flex-col-reverse items-center w-full justify-center lg:mb-22 mb-14 lg:mt-12">
+      <div className="relative lg:h-[70vh] lg:w-[70vh] sm:h-[50vh] sm:w-[55vh] h-[50vh] w-[40vh] lg:mt-0 mt-8 object-contain">
         <Image
           src="/manmachine.png"
           alt="Bank logo"
