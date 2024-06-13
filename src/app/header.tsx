@@ -14,8 +14,7 @@ export default function Header() {
             />
             <ul className="flex sm:relative absolute sm:mt-0 mt-32">
                 <Link href="/" className="p-4 hover:text-green-500">Home</Link>
-                <Link href="/signIn" className="p-4 hover:text-green-500">Sign In</Link>
-                <Link href="/signIn" className="p-4 hover:text-green-500">Sign Up</Link>
+                <Link href="/signIn" className="p-4 hover:text-green-500">Contato</Link>
             </ul>
         </div>
     )

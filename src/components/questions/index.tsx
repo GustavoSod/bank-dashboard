@@ -10,11 +10,11 @@ const Questions: React.FC = () => {
   const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
 
   const questions: QuestionProps[] = [
-    { question: "How does lala work?", answer: "Answer to the first question goes here." },
-    { question: "What is a charge back in lala?", answer: "Answer to the second question goes here." },
-    { question: "How do I pay now with lala?", answer: "Answer to the third question goes here." },
-    { question: "How secure is lala?", answer: "Answer to the fourth question goes here." },
-    { question: "Is lala open to transactions?", answer: "Answer to the fifth question goes here." }
+    { question: "Como a YourMoney funciona?", answer: "Facilitamos transações financeiras globais de maneira rápida e segura, conectando clientes a mercados financeiros em todo o mundo através de nossa plataforma digital." },
+    { question: "Quais são nossas taxas?", answer: "Nossas taxas são competitivas e transparentes. Cobramos taxas mínimas por transações internacionais e oferecemos opções flexíveis para diversos tipos de serviços financeiros." },
+    { question: "Quais Tipos de contas temos?", answer: "Oferecemos uma ampla gama de serviços, incluindo câmbio de moedas, transferências internacionais, investimentos em mercados globais e soluções financeiras corporativas personalizadas." },
+    { question: "YourMoney é seguro??", answer: "Sim, priorizamos a segurança dos dados e das transações dos nossos clientes. Utilizamos tecnologia avançada de criptografia e seguimos rigorosos padrões de conformidade regulatória.." },
+    { question: "É aberto para qualquer tipo de transação", answer: "Nossos serviços são abertos para uma ampla gama de transações, incluindo remessas familiares, pagamentos corporativos, investimentos diversificados e transações de comércio internacional." }
   ];
 
   const toggleAnswer = (index: number) => {
@@ -29,7 +29,7 @@ const Questions: React.FC = () => {
     <div className="flex items-center w-full justify-center">
       <div className="w-4/5 rounded-lg items-center justify-center sm:mt-40 mt-24">
         <div className="bg-green-500 rounded-lg text-center p-4">
-          <h1 className="lg:text-5xl sm:text-4xl text-3xl font-semibold">Questions</h1>
+          <h1 className="lg:text-5xl sm:text-4xl text-3xl font-semibold">Questões</h1>
         </div>
         <style jsx>{`
           .answer {
