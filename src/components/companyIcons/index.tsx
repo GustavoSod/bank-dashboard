@@ -3,11 +3,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const slides = [
-    { number: 'Logo 1'},
-    { number: 'logo 2'},
-    { number: 'Logo 3'},
-    { number: 'logo 4'},
-    { number: 'logo 5'},
+    { number: 'Logo'},
+    { number: 'logo'},
+    { number: 'Logo'},
+    { number: 'logo'},
+    { number: 'logo'},
 ];
 
 const CompanyIcons = () => {
@@ -28,7 +28,7 @@ const CompanyIcons = () => {
             >
                 {duplicatedSlides.map((slide, index) => (
                     <div key={index} className="flex-shrink-0" style={{ width: `${100 / slides.length}%` }}>
-                        <div className="flex flex-col items-center justify-center h-full lg:text-4xl sm:text-3xl text-base text-gray-400">
+                        <div className="flex flex-col items-center justify-center h-full lg:text-4xl sm:text-3xl text-xl text-gray-400">
                             {slide.number}
                         </div>
                     </div>

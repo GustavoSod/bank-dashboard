@@ -8,7 +8,6 @@ export default function Presentation() {
           src="/manmachine.png"
           alt="Bank logo"
           fill={true}
-          objectFit="cover" 
           priority
         />
       </div>
